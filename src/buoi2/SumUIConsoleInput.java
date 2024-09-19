@@ -22,6 +22,8 @@ public class SumUIConsoleInput {
         
         stdIn = new BufferedReader(
             new InputStreamReader(System.in));
+
+        sumUseCaseControl = new SumUseCaseControl();
     }
 
     public void input() throws IOException {
